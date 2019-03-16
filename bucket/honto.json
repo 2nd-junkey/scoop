@@ -1,0 +1,25 @@
+{
+    "version": "6.36.0",
+    "url": "https://dl.honto.jp/pcapp/honto_setup.exe",
+    "hash": "1f53cd68eb4152771b5266f459d18aee99a453360a3932a81b0e6d4211d01f4f",
+    "pre_install": [
+        "Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force"
+    ],
+    "depends": [
+        "sudo"
+    ],
+    "installer": {
+        "script": [
+            "if((sudo Get-WindowsOptionalFeature -FeatureName NetFx3 -Online).State -ne \"Enabled\"){sudo Enable-WindowsOptionalFeature -FeatureName NetFx3 -Online",
+            "if( $? -ne $true ){ sudo Enable-WindowsOptionalFeature -FeatureName NetFx3 -Online -LimitAccess}}",
+            "cd $dir",
+            ".\\honto_setup.exe /s /v\"/qn INSTALLDIR=$dir\"",
+            "if ( $? -eq $true ){",
+                "while ((Test-Path \"Bookshelf.exe\") -ne $true){}",
+                "while ((Test-Path \"C:\\Users\\Public\\Desktop\\honto.lnk\") -ne $true){}",
+                "rm \"C:\\Users\\Public\\Desktop\\honto.lnk\"",
+            "}",
+            ""
+        ]
+    }
+}
