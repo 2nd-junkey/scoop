@@ -1,6 +1,14 @@
 {
     "version": "5.1.5.0",
-    "url": "https://www.dmm.com/transfer/-/dmmviewer/=/bit=64/",
-    "##": "need: Microsoft Visual C++ 2013 Redistrubutable Package",
-    "": ""
+    "architecture": {
+        "64bit": {
+            "url": "https://www.dmm.com/transfer/-/dmmviewer/=/bit=64/",
+            "##": "TODO: check hash"
+        },
+        "32bit": {
+            "url":"https://www.dmm.com/transfer/-/dmmviewer/=/bit=32/",
+            "##": "TODO: check hash"
+        }
+    },
+    "##": "need: Microsoft Visual C++ 2013 Redistrubutable Package"
 }
