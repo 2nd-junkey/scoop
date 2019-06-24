@@ -1,0 +1,10 @@
+{
+    "version": "latest",
+    "url": "http://www.amazon.co.jp/kindlepcdownload/ref=klp_win",
+    "installer": {
+        "script": [
+            ".\\KindleForPC-installer-1.26.55076.exe",
+            ""
+        ]
+    }
+}
