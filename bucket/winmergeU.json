@@ -4,11 +4,11 @@
     "architecture": {
         "64bit": {
             "url": "https://bitbucket.org/sdottaka/winmerge-v2/downloads/winmerge-2.16.2-jp-7-x64-exe.zip",
-            "hash": "6d37efd1f6bc2629657783f7755ef0052b1d08bf597d2cefec9ff91aee5f9973"
+            "hash": "b3aa4d0ab406761adeeb08553bbd8a4ec39445d2a25dd95a1867f7704b6a8dac"
         },
         "32bit": {
             "url": "https://bitbucket.org/sdottaka/winmerge-v2/downloads/winmerge-2.16.2-jp-7-exe.zip",
-            "hash": "e9049de9706c3c697623c215d0dc0381e86f880b8670b795651eefc1c1cfca48"
+            "hash": "9968ba33404b82b25b43adf0f805932ca6fbd828fe48a8379cc8ac035d50c50d"
         }
     },
     "extract_dir": "WinMerge",
