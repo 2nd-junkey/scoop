@@ -1,14 +1,14 @@
 {
-    "version": "2.16.0-jp-7",
+    "version": "2.16.2-jp-7",
     "license": "GPL2",
     "architecture": {
         "64bit": {
-            "url": "https://bitbucket.org/sdottaka/winmerge-v2/downloads/winmerge-2.16.0-jp-7-exe.zip",
-            "hash": "bc989e384ba089ba9ce2ef52b0e63c91a4538eca17f0ccec91aaa095f9df3a96"
+            "url": "https://bitbucket.org/sdottaka/winmerge-v2/downloads/winmerge-2.16.2-jp-7-x64-exe.zip",
+            "hash": "6d37efd1f6bc2629657783f7755ef0052b1d08bf597d2cefec9ff91aee5f9973"
         },
         "32bit": {
-            "url": "https://bitbucket.org/sdottaka/winmerge-v2/downloads/winmerge-2.16.0-jp-7-x64-exe.zip",
-            "hash": "da7d4c53ef3c627a6cc59dcd6c690f4e10a01f3e6b68a6748919da123dbe063f"
+            "url": "https://bitbucket.org/sdottaka/winmerge-v2/downloads/winmerge-2.16.2-jp-7-exe.zip",
+            "hash": "e9049de9706c3c697623c215d0dc0381e86f880b8670b795651eefc1c1cfca48"
         }
     },
     "extract_dir": "WinMerge",
