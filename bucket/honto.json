@@ -3,7 +3,7 @@
     "url": "https://dl.honto.jp/pcapp/honto_setup.exe",
     "hash": "ce8a030c21740ebb6e848a986bb5212dd40ffe44c8ff2ff4e87a39bca6348d83",
     "pre_install": [
-        "Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force"
+        "sudo Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force"
     ],
     "depends": [
         "sudo"
