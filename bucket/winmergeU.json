@@ -3,10 +3,10 @@
     "license": "GPL2",
     "architecture": {
         "64bit": {
-	    "url": "https://osdn.net/dl/winmerge-jp/winmerge-2.16.6-jp-10-x64-exe.zip"
+	    "url": "https://osdn.net/frs/redir.php?m=jaist&f=winmerge-jp%2F73223%2Fwinmerge-2.16.6-jp-10-x64-exe.zip"
         },
         "32bit": {
-	    "url": "https://osdn.net/dl/winmerge-jp/winmerge-2.16.6-jp-10-exe.zip"
+	    "url": "https://osdn.net/frs/redir.php?m=jaist&f=winmerge-jp%2F73223%2Fwinmerge-2.16.6-jp-10-exe.zip"
         }
     },
     "extract_dir": "WinMerge",
@@ -26,10 +26,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-	        "url": "https://osdn.net/dl/winmerge-jp/winmerge-$match1-jp-$match2-x64-exe.zip"
+	        "url": "https://osdn.net/frs/redir.php?m=jaist&f=winmerge-jp%2F73223%2Fwinmerge-$match1-jp-$match2-x64-exe.zip"
             },
             "32bit": {
-	        "url": "https://osdn.net/dl/winmerge-jp/winmerge-$match1-jp-$match2-exe.zip"
+	        "url": "https://osdn.net/frs/redir.php?m=jaist&f=winmerge-jp%2F73223%2Fwinmerge-$match1-jp-$match2-exe.zip"
             }
         }
     }
