@@ -1,7 +1,7 @@
 {
-    "version": "6.43.3",
+    "version": "6.47.0",
     "url": "https://dl.honto.jp/pcapp/honto_setup.exe",
-    "hash": "ce8a030c21740ebb6e848a986bb5212dd40ffe44c8ff2ff4e87a39bca6348d83",
+    "hash": "921a07a9465ee795083cba745f91ccedcec119995f254834928c4bc9bf2b8602",
     "pre_install": [
         "sudo Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force"
     ],
